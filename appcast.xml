@@ -3,24 +3,21 @@
     <channel>
         <title>Weft</title>
         <item>
-            <title>1.0.3</title>
-            <pubDate>Fri, 02 Oct 2026 16:05:26 -0600</pubDate>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <title>1.0.4</title>
+            <pubDate>Fri, 02 Oct 2026 17:54:30 -0600</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.3
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.4
 
-- Discover more existing Git projects, including Node, Python, Go, Rust, Swift, and Docker projects, with local launch configuration for ambiguous projects.
-- Run multiple projects at the same time with independent service controls.
-- Prepare supported tools and repository dependencies before starting, respecting repository versions and lockfiles.
-- Show installation progress, results, last-installed dates, and dependency updates after changes to the current checkout.
-- Pause affected services during dependency installation and restore them after success while other projects keep running.
-- Keep generated project configuration outside repositories without creating weft.json or changing .gitignore.
-- Improve onboarding layout at wide window sizes and add Open arrows beside running web services.
-- Remove the system Python dependency from process launching.
+- Stop an individual service without stopping services that depend on it. The project-level Stop still stops the whole project.
+- Right-click a running service to restart it individually.
+- Show an immediate spinner on Start/Stop controls while the requested operation runs.
+- Add Pattern UI's Storybook development service on port 7007 with its own Open arrow.
+- Keep Pattern UI's dist build watcher separate from Storybook and Pi, so the development commands can keep updating files while other services run.
 ]]></description>
-            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.3/Weft-1.0.3-arm64.dmg" length="6294751" type="application/octet-stream" sparkle:edSignature="JaF15msZ9L/l8hm7RBlnHhUNt2zt06EbvnIhF1x4YlNp7b41PJXolWG9umSwqXClDRCxjbNHR34QYhsRp0jzCA=="/>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.4/Weft-1.0.4-arm64.dmg" length="6304668" type="application/octet-stream" sparkle:edSignature="kNb6xHcXQ9fwF9IOemq157qfCAEcUoucNiZL+bTp3jn1wFZnCAseyc0XpBDSFn9X+V5VdqoaGwm5gdRKqMo9CQ=="/>
         </item>
     </channel>
 </rss>
