@@ -3,19 +3,18 @@
     <channel>
         <title>Weft</title>
         <item>
-            <title>1.0.1</title>
-            <pubDate>Fri, 02 Oct 2026 10:31:05 -0600</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <title>1.0.2</title>
+            <pubDate>Fri, 02 Oct 2026 11:16:08 -0600</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.1
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.2
 
-- Get a project ready with a guided first-run setup, local project discovery, and GitHub import.
-- More reliable health checks and clearer recovery when a project takes time to start.
-- Automatic update checks, with a prompt before an update installs.
+- Correct the app copyright attribution to Matt Anderson.
+- Add a Release notes link to the About Weft panel.
 ]]></description>
-            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.1/Weft-1.0.1-arm64.dmg" length="6050746" type="application/octet-stream" sparkle:edSignature="FaYpuotd+kwbNDXeqlwrd7WYBYlZIP49qQksRu8P2j9hnFQ/M5BxFCeFSQVNOYG1/hKPGbig60VZOHPMn7j8Aw=="/>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.2/Weft-1.0.2-arm64.dmg" length="7743031" type="application/octet-stream" sparkle:edSignature="a8KFuQLUM1+Xm4RIcNyvSq+J/89ggoieh3ZdQAWuakUrDw4JYxcHVWObpbgpBYkWs7ejL/+5JtPiCajc1S4rAA=="/>
         </item>
     </channel>
 </rss>
