@@ -3,24 +3,22 @@
     <channel>
         <title>Weft</title>
         <item>
-            <title>1.0.5</title>
-            <pubDate>Fri, 02 Oct 2026 18:30:17 -0600</pubDate>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <title>1.0.6</title>
+            <pubDate>Sat, 03 Oct 2026 06:37:44 -0700</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.5
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.6
 
-- Discover multiple Node workspace services from package.json or pnpm-workspace.yaml, including Storybook and build watchers. Follow declared workspace dependencies and avoid starting a duplicate root orchestration command.
-- Detect multiple Swift executable products and Python project entry points as separate services.
-- Add a visible Restart control beside each running service.
-- Add Build/Rebuild controls for services with declared build commands, with live progress, errors, and the last successful build time.
-- Pause only the service being built and restore it after success, leaving other services running.
-- Add Pattern UI dist and static Storybook build commands to the Pattern Pi recipe.
-
-Live updates were checked in isolated copies using the repository's Storybook and Pi Vite configurations: a shared source edit appeared in both browser pages without restarting servers or reloading the documents. Live updates remain provided by each repository's development commands.
+- Simplified service controls: Start/Stop is the primary button, Open stays beside it, and Restart and Build/Rebuild are available in the three-dot menu and by right-clicking.
+- Fixed overlapping Pattern UI builds during Pi startup and restarts. Pi now owns its Pattern UI build; restart Pi to rebuild changes consumed from compiled output.
+- Made process tracking and automatic recovery resilient to delayed exit callbacks and interrupted startup.
+- HTTP readiness checks now verify a successful response instead of only checking an open port.
+- Rebuilds pause dependent services and restore them in dependency order. Stopping during a build prevents automatic restoration.
+- Retired old Weft-owned Pattern UI watchers safely and rejected recipes that would reintroduce the conflicting watcher. Cleanup preserves manually started processes.
 ]]></description>
-            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.5/Weft-1.0.5-arm64.dmg" length="6363679" type="application/octet-stream" sparkle:edSignature="c951yI09+GYYOpIc6dFiyJIGGbPATBZ8ur7eA/RCaajGuUZHH7HSKfux2sJfpL2j7FdqPTeTpjD3NduAhE+2Cw=="/>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.6/Weft-1.0.6-arm64.dmg" length="6416350" type="application/octet-stream" sparkle:edSignature="e0KtxoAu7penov32GkAR1uKoyXGPiscrzwYQKsRSpnfsJUtNc1W7lvuqstLJfCDSK+WqAu1f13kCIEzSiRJaBA=="/>
         </item>
     </channel>
 </rss>
