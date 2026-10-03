@@ -3,22 +3,18 @@
     <channel>
         <title>Weft</title>
         <item>
-            <title>1.0.6</title>
-            <pubDate>Sat, 03 Oct 2026 06:37:44 -0700</pubDate>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <title>1.0.7</title>
+            <pubDate>Sat, 03 Oct 2026 07:07:13 -0700</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.6
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.7
 
-- Simplified service controls: Start/Stop is the primary button, Open stays beside it, and Restart and Build/Rebuild are available in the three-dot menu and by right-clicking.
-- Fixed overlapping Pattern UI builds during Pi startup and restarts. Pi now owns its Pattern UI build; restart Pi to rebuild changes consumed from compiled output.
-- Made process tracking and automatic recovery resilient to delayed exit callbacks and interrupted startup.
-- HTTP readiness checks now verify a successful response instead of only checking an open port.
-- Rebuilds pause dependent services and restore them in dependency order. Stopping during a build prevents automatic restoration.
-- Retired old Weft-owned Pattern UI watchers safely and rejected recipes that would reintroduce the conflicting watcher. Cleanup preserves manually started processes.
+- Fixed Pattern Pi startup incorrectly timing out when its home page redirects to login. Weft now checks Pi's dedicated health endpoint, so readiness does not depend on a browser login session.
+- The Open Pi button still opens the application home page. Existing built-in Pattern Pi projects receive the corrected health check when Weft relaunches.
 ]]></description>
-            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.6/Weft-1.0.6-arm64.dmg" length="6416350" type="application/octet-stream" sparkle:edSignature="e0KtxoAu7penov32GkAR1uKoyXGPiscrzwYQKsRSpnfsJUtNc1W7lvuqstLJfCDSK+WqAu1f13kCIEzSiRJaBA=="/>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.7/Weft-1.0.7-arm64.dmg" length="6416305" type="application/octet-stream" sparkle:edSignature="IyOUc9bBRcm+cOgOehcpoJYIaE9uYkDy1qlTYt44C2f7+elZBCS0ccjexVPX7b/5pK/yStCYPib2bpuqGD7dBQ=="/>
         </item>
     </channel>
 </rss>
