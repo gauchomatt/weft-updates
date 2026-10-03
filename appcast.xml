@@ -3,21 +3,24 @@
     <channel>
         <title>Weft</title>
         <item>
-            <title>1.0.4</title>
-            <pubDate>Fri, 02 Oct 2026 17:54:30 -0600</pubDate>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <title>1.0.5</title>
+            <pubDate>Fri, 02 Oct 2026 18:30:17 -0600</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.4
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.5
 
-- Stop an individual service without stopping services that depend on it. The project-level Stop still stops the whole project.
-- Right-click a running service to restart it individually.
-- Show an immediate spinner on Start/Stop controls while the requested operation runs.
-- Add Pattern UI's Storybook development service on port 7007 with its own Open arrow.
-- Keep Pattern UI's dist build watcher separate from Storybook and Pi, so the development commands can keep updating files while other services run.
+- Discover multiple Node workspace services from package.json or pnpm-workspace.yaml, including Storybook and build watchers. Follow declared workspace dependencies and avoid starting a duplicate root orchestration command.
+- Detect multiple Swift executable products and Python project entry points as separate services.
+- Add a visible Restart control beside each running service.
+- Add Build/Rebuild controls for services with declared build commands, with live progress, errors, and the last successful build time.
+- Pause only the service being built and restore it after success, leaving other services running.
+- Add Pattern UI dist and static Storybook build commands to the Pattern Pi recipe.
+
+Live updates were checked in isolated copies using the repository's Storybook and Pi Vite configurations: a shared source edit appeared in both browser pages without restarting servers or reloading the documents. Live updates remain provided by each repository's development commands.
 ]]></description>
-            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.4/Weft-1.0.4-arm64.dmg" length="6304668" type="application/octet-stream" sparkle:edSignature="kNb6xHcXQ9fwF9IOemq157qfCAEcUoucNiZL+bTp3jn1wFZnCAseyc0XpBDSFn9X+V5VdqoaGwm5gdRKqMo9CQ=="/>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.5/Weft-1.0.5-arm64.dmg" length="6363679" type="application/octet-stream" sparkle:edSignature="c951yI09+GYYOpIc6dFiyJIGGbPATBZ8ur7eA/RCaajGuUZHH7HSKfux2sJfpL2j7FdqPTeTpjD3NduAhE+2Cw=="/>
         </item>
     </channel>
 </rss>
