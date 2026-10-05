@@ -3,20 +3,19 @@
     <channel>
         <title>Weft</title>
         <item>
-            <title>1.0.8</title>
-            <pubDate>Mon, 05 Oct 2026 13:07:09 -0600</pubDate>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>1.0.8</sparkle:shortVersionString>
+            <title>1.0.9</title>
+            <pubDate>Mon, 05 Oct 2026 13:16:03 -0600</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.8
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.9
 
-- Pattern Pi setup now guides you through installing AWS tools, signing in, and getting your project settings with clear actions in Weft.
-- Weft checks Pi’s required settings and company sign-in helper before starting, and helps you install the helper if needed.
-- Failed or incomplete settings downloads preserve your existing settings. Sensitive settings stay out of setup errors and diagnostics.
-- Setup uses plain-language actions instead of asking you to copy commands, and startup failures no longer suggest reinstalling unrelated packages.
+- Added Run Setup Again to reopen a saved project’s setup guide and finish missing steps. Weft stops services it started before returning to setup.
+- Added Remove from Weft to forget a saved project and stop its Weft-managed services without deleting its project files or settings.
+- Both actions are available in Requirements and by right-clicking the project in the sidebar.
 ]]></description>
-            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.8/Weft-1.0.8-arm64.dmg" length="6500407" type="application/octet-stream" sparkle:edSignature="FPpwhy7tC4BeIe280nfqBqyBhFd1CMHGXmWN2UantzITMbEMlqnNPzALh2KZombCz4hLNwEDIfllPushS5ERAg=="/>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.9/Weft-1.0.9-arm64.dmg" length="6518189" type="application/octet-stream" sparkle:edSignature="0OFGic6vMVJgkQVw/FnA9RjFDPfPw1UlIfBz0p8HnAM1LTLjMVY/4OrAVt1IG/yle4QbLTl7UnfyYsDws+AVAg=="/>
         </item>
     </channel>
 </rss>
