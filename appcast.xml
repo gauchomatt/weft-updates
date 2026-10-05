@@ -3,20 +3,22 @@
     <channel>
         <title>Weft</title>
         <item>
-            <title>1.0.12</title>
-            <pubDate>Mon, 05 Oct 2026 15:59:32 -0600</pubDate>
-            <sparkle:version>20</sparkle:version>
-            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
+            <title>1.0.13</title>
+            <pubDate>Mon, 05 Oct 2026 17:36:51 -0600</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.12
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.13
 
-- Preparation now uses expandable sections for company sign-in, project settings, requirements, and installation. Completed sections collapse and the next task opens; each section can be reopened.
-- Downloaded settings support common line endings and quotation marks while preserving existing settings if validation fails.
-- Running services that stop unexpectedly or fail health checks trigger an audible notification, including while Weft is open. Intentional stops and restarts do not trigger service-down alerts.
-- Successful builds with warnings are labeled clearly, with expandable warning details. Logs show when the project is running and passing health checks.
+- Simpler setup screens with clearer next actions and saved progress when preparation is unfinished.
+- Company account selection is remembered for each project, and existing AWS sign-in is checked when returning to setup.
+- Consistent project status and recovery guidance. Open Project becomes available after startup health checks pass.
+- Choose service failure, recovery, and memory notifications separately for each project.
+- Copy a support report with recent activity and output, with credential redaction improved.
+- Native Liquid Glass action buttons, a Settings button inside the sidebar, and larger pill-shaped service control groups. Selected service icons turn white for better contrast.
 ]]></description>
-            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.12/Weft-1.0.12-arm64.dmg" length="6557533" type="application/octet-stream" sparkle:edSignature="mSJChulGYlcXCHoNNw9D6aXmviPqtN1arsEZU1BadehbSLza/8nHCG2Eu9IEYaUeI8guq7Yl8PgfNvM7wijgBA=="/>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.13/Weft-1.0.13-arm64.dmg" length="6580125" type="application/octet-stream" sparkle:edSignature="PfI/KQ0Vaq1dMr0tFYGO9rijVoswAU8pEeuza0ib1mXsc6W1wS4v/CqIuBP9CFqxIZvS8acW8CfzVDwGmB68BQ=="/>
         </item>
     </channel>
 </rss>
