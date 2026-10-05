@@ -3,19 +3,20 @@
     <channel>
         <title>Weft</title>
         <item>
-            <title>1.0.11</title>
-            <pubDate>Mon, 05 Oct 2026 15:02:34 -0600</pubDate>
-            <sparkle:version>19</sparkle:version>
-            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+            <title>1.0.12</title>
+            <pubDate>Mon, 05 Oct 2026 15:59:32 -0600</pubDate>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.11
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.12
 
-- Missing or inaccessible optional integration settings no longer prevent Pi setup from finishing. Required settings are still checked before saving.
-- Settings-download errors now distinguish missing permissions, expired AWS sign-in, missing required settings, and connection problems.
-- Failed downloads preserve existing settings, and AWS error details are classified without exposing sensitive output.
+- Preparation now uses expandable sections for company sign-in, project settings, requirements, and installation. Completed sections collapse and the next task opens; each section can be reopened.
+- Downloaded settings support common line endings and quotation marks while preserving existing settings if validation fails.
+- Running services that stop unexpectedly or fail health checks trigger an audible notification, including while Weft is open. Intentional stops and restarts do not trigger service-down alerts.
+- Successful builds with warnings are labeled clearly, with expandable warning details. Logs show when the project is running and passing health checks.
 ]]></description>
-            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.11/Weft-1.0.11-arm64.dmg" length="6533509" type="application/octet-stream" sparkle:edSignature="J754hFUZ0eTXuFepo93GJ6XpG6DPnTrsjN7Fu5rElNzuen9gTERROR+8Fp/m4FSaXDrniM1sxqZT3xnv/jeKAA=="/>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.12/Weft-1.0.12-arm64.dmg" length="6557533" type="application/octet-stream" sparkle:edSignature="mSJChulGYlcXCHoNNw9D6aXmviPqtN1arsEZU1BadehbSLza/8nHCG2Eu9IEYaUeI8guq7Yl8PgfNvM7wijgBA=="/>
         </item>
     </channel>
 </rss>
