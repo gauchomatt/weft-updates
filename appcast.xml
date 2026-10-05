@@ -3,19 +3,19 @@
     <channel>
         <title>Weft</title>
         <item>
-            <title>1.0.9</title>
-            <pubDate>Mon, 05 Oct 2026 13:16:03 -0600</pubDate>
-            <sparkle:version>17</sparkle:version>
-            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+            <title>1.0.10</title>
+            <pubDate>Mon, 05 Oct 2026 13:48:19 -0600</pubDate>
+            <sparkle:version>18</sparkle:version>
+            <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.9
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.10
 
-- Added Run Setup Again to reopen a saved project’s setup guide and finish missing steps. Weft stops services it started before returning to setup.
-- Added Remove from Weft to forget a saved project and stop its Weft-managed services without deleting its project files or settings.
-- Both actions are available in Requirements and by right-clicking the project in the sidebar.
+- AWS sign-in now shows the confirmation code in Weft while authorization is waiting.
+- A Continue in browser button opens the AWS authorization page after the code is visible, so you can check that the codes match before approving.
+- The code clears when sign-in finishes or fails. Other AWS output stays out of activity, diagnostics, and errors.
 ]]></description>
-            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.9/Weft-1.0.9-arm64.dmg" length="6518189" type="application/octet-stream" sparkle:edSignature="0OFGic6vMVJgkQVw/FnA9RjFDPfPw1UlIfBz0p8HnAM1LTLjMVY/4OrAVt1IG/yle4QbLTl7UnfyYsDws+AVAg=="/>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.10/Weft-1.0.10-arm64.dmg" length="6524658" type="application/octet-stream" sparkle:edSignature="k7d0H7AsXdj//QKVQ2KmyL6KRBitzNoihjW5rcKyCqul0x4Y4ClmqLH1dqtbNImB178yMaNh8FkYN5j6gnP3CQ=="/>
         </item>
     </channel>
 </rss>
