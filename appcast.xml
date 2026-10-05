@@ -3,19 +3,19 @@
     <channel>
         <title>Weft</title>
         <item>
-            <title>1.0.10</title>
-            <pubDate>Mon, 05 Oct 2026 13:48:19 -0600</pubDate>
-            <sparkle:version>18</sparkle:version>
-            <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+            <title>1.0.11</title>
+            <pubDate>Mon, 05 Oct 2026 15:02:34 -0600</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.10
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.11
 
-- AWS sign-in now shows the confirmation code in Weft while authorization is waiting.
-- A Continue in browser button opens the AWS authorization page after the code is visible, so you can check that the codes match before approving.
-- The code clears when sign-in finishes or fails. Other AWS output stays out of activity, diagnostics, and errors.
+- Missing or inaccessible optional integration settings no longer prevent Pi setup from finishing. Required settings are still checked before saving.
+- Settings-download errors now distinguish missing permissions, expired AWS sign-in, missing required settings, and connection problems.
+- Failed downloads preserve existing settings, and AWS error details are classified without exposing sensitive output.
 ]]></description>
-            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.10/Weft-1.0.10-arm64.dmg" length="6524658" type="application/octet-stream" sparkle:edSignature="k7d0H7AsXdj//QKVQ2KmyL6KRBitzNoihjW5rcKyCqul0x4Y4ClmqLH1dqtbNImB178yMaNh8FkYN5j6gnP3CQ=="/>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.11/Weft-1.0.11-arm64.dmg" length="6533509" type="application/octet-stream" sparkle:edSignature="J754hFUZ0eTXuFepo93GJ6XpG6DPnTrsjN7Fu5rElNzuen9gTERROR+8Fp/m4FSaXDrniM1sxqZT3xnv/jeKAA=="/>
         </item>
     </channel>
 </rss>
