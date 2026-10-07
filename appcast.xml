@@ -3,19 +3,20 @@
     <channel>
         <title>Weft</title>
         <item>
-            <title>1.0.15</title>
-            <pubDate>Tue, 06 Oct 2026 17:55:53 -0600</pubDate>
-            <sparkle:version>23</sparkle:version>
-            <sparkle:shortVersionString>1.0.15</sparkle:shortVersionString>
+            <title>1.0.16</title>
+            <pubDate>Tue, 06 Oct 2026 18:24:14 -0600</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>1.0.16</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.15
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.16
 
-- Explain when Pi’s company sign-in relay fails to start instead of reporting only a port timeout.
-- Offer Open Company Sign-in during setup so you can complete Microsoft/Okta authentication, see relay errors, and retry startup.
-- Show startup failures before service cleanup finishes so setup stops displaying Preparing as soon as a failure is detected.
+- Run Company Sign-in as a separate Weft service and wait for it before starting Pi. Relay and browser-driver errors now appear in its own logs.
+- Reuse a verified company sign-in relay already running on port 9090 without treating it as a Pi port conflict or stopping the external relay.
+- Repair damaged cached sign-in browser drivers from Weft, preserving a backup before the helper downloads a replacement.
+- Make company sign-in repair available in the main project view, Activity, and onboarding instead of silently retrying startup.
 ]]></description>
-            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.15/Weft-1.0.15-arm64.dmg" length="8301700" type="application/octet-stream" sparkle:edSignature="yusteaYy00Z+u4hVrdt8GfpwZa/7RlbNWM1HN1eSYlIjAOIIxPTV06A8YbXECtsR+HuB5Cz+u+G5LIkH6aS/Ag=="/>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.16/Weft-1.0.16-arm64.dmg" length="8332117" type="application/octet-stream" sparkle:edSignature="XDZia3o5mhOcLzRt9qqCO0jJuA0zrr+RrALO4AZEreJyN3Fcwu+8VNL7eU6GKu6dJfmdl5uWHDXL5gy5NIZwBQ=="/>
         </item>
     </channel>
 </rss>
