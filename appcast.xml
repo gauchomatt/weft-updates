@@ -1,8 +1,25 @@
-<?xml version="1.0" standalone="yes"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+<?xml version="1.0" encoding="utf-8"?><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Weft</title>
         <item>
+            <title>1.0.19</title>
+            <pubDate>Mon, 19 Oct 2026 11:37:54 -0600</pubDate>
+            <sparkle:version>27</sparkle:version>
+            <sparkle:shortVersionString>1.0.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.19
+
+- Install the pnpm version declared in mise.toml instead of repeatedly installing an incompatible version.
+- Automatically check Heimdall and Brand Boost credentials against AWS before Pi starts. Refresh stale keys after matching authentication failures and restart only Pi, with bounded retries and clear explanations when current keys remain rejected.
+- Apply credential recovery across Pattern Pi worktrees using each checkout's selected AWS account or its parent's account. Preserve local settings and keep private backups when keys change.
+- Show whether Company Sign-in is running on shared port 9090 and offer to start it from Requirements.
+- Display service ports in checkout and service details, and pass Storybook its assigned worktree port.
+- Preserve the underlying setup failure message so worktree repair explains what actually failed.
+]]></description>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.19/Weft-1.0.19-arm64.dmg" length="7720018" type="application/octet-stream" sparkle:edSignature="YiG2vqBKjzkO3vSJRIYYJInj3jszjxLVRE6UsLi5oGylssOAsKAdTr1a0QY7uqhrQhoinO3atbRjyInDAfafCw=="/>
+        </item>
+    <item>
             <title>1.0.18</title>
             <pubDate>Mon, 19 Oct 2026 09:00:23 -0600</pubDate>
             <sparkle:version>26</sparkle:version>
@@ -28,6 +45,5 @@
 - Preserve the top-right toolbar button group while the startup indicator is displayed.
 ]]></description>
             <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.18/Weft-1.0.18-arm64.dmg" length="7626785" type="application/octet-stream" sparkle:edSignature="gB8YmiGYOyiZsbI0/p6sb9tVW/rxJHi/h4A+N9G7YkH4btiZzjXH4mdDrb/lz2Dl05rXaK8Ic5yKzvU+C1f7DA=="/>
-        </item>
-    </channel>
+        </item></channel>
 </rss>
