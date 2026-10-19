@@ -3,19 +3,31 @@
     <channel>
         <title>Weft</title>
         <item>
-            <title>1.0.17</title>
-            <pubDate>Wed, 14 Oct 2026 09:06:55 -0600</pubDate>
-            <sparkle:version>25</sparkle:version>
-            <sparkle:shortVersionString>1.0.17</sparkle:shortVersionString>
+            <title>1.0.18</title>
+            <pubDate>Mon, 19 Oct 2026 09:00:23 -0600</pubDate>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>1.0.18</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.17
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.18
 
-- Honor Node, pnpm, npm, yarn, and bun string pins in the root mise.toml and .mise.toml files when no existing declaration takes precedence. Recheck installation state when either mise file changes.
-- Preserve the default Node version for projects without a pin. Projects pinned to Node 26 through mise now replace an incompatible installed Node version on their next start.
-- Fix a test listener cleanup hang by bounding shutdown and signaling the helper process directly.
+- Add one standing Git worktree per actor, with stable port blocks, independent sessions, and a native sidebar for managed and external checkouts.
+- Add reviewed worktree setup, optional ignored-file copying, port templates, and environment identities for isolating local resources.
+- Keep shared services alive across consumers and protect their hosting checkout until they stop.
+- Add CLI and MCP worktree commands, persistent task claims, recoverable preparation, and in-app removal/prune approvals. Preserve parent checkouts, external processes, and Git branches.
+
+- Give discovered existing worktrees the same service workspace and start, stop, and restart controls as Main, with automatic persistent ports. Keep selection passive, preserve existing files and branches, and skip creation hooks for existing folders.
+- Simplify navigation to checkout names and service status; move Git and port metadata into Checkout details and restore native sidebar and toolbar selection styling.
+- Discover agent-created worktrees through Git metadata listeners with a refresh fallback, show them automatically, and send actionable macOS notifications without a startup notification burst.
+- Add Delete Worktree… with current-state confirmation for existing and actor checkouts, preserving Main and Git branches.
+- Use compact single-line rows under every project, with quiet service indicators and native selection styling.
+- Show project favicons and aligned numbered checkout badges, with running colors and progress indicators for service operations.
+- Unify project, checkout, and service row heights; keep smaller service action symbols and move secondary actions into row context menus.
+- Group Start/Stop, Open, Restart, Build/Rebuild, and Logs in the service inspector, with technical details collapsed.
+- Show service status and running counts in Overview, and keep project preferences out of the primary action area.
+- Preserve the top-right toolbar button group while the startup indicator is displayed.
 ]]></description>
-            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.17/Weft-1.0.17-arm64.dmg" length="6645014" type="application/octet-stream" sparkle:edSignature="2d1xobOZBzklGmQpz4/7tIurz9yZmGwI2bxwuaRi0smS0lJqvXZDzDh7n/uAT+RN5AYf8ynpyiiCluNV66AoBw=="/>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.18/Weft-1.0.18-arm64.dmg" length="7626785" type="application/octet-stream" sparkle:edSignature="gB8YmiGYOyiZsbI0/p6sb9tVW/rxJHi/h4A+N9G7YkH4btiZzjXH4mdDrb/lz2Dl05rXaK8Ic5yKzvU+C1f7DA=="/>
         </item>
     </channel>
 </rss>
