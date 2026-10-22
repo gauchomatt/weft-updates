@@ -2,6 +2,23 @@
     <channel>
         <title>Weft</title>
         <item>
+            <title>1.0.21</title>
+            <pubDate>Thu, 22 Oct 2026 12:36:17 -0600</pubDate>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>1.0.21</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.21
+
+- Adjust window translucency with a live, saved slider in Settings → Appearance, or turn it off. Keep the project sidebar lighter and the service and detail columns matched across the full range.
+- Respect macOS Reduce Transparency by using opaque surfaces and disabling the translucency slider while that accessibility preference is enabled.
+- Click a worktree's warning icon to see why it needs attention and open Requirements, review settings, link an agent, or review a repair as appropriate. Keep warning actions accessible to keyboard and VoiceOver users.
+
+Requires macOS 26 or later on Apple silicon.
+]]></description>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.21/Weft-1.0.21-arm64.dmg" length="10090596" type="application/octet-stream" sparkle:edSignature="0kzYFblDPvXAZVKgw8+5MMBUQRg0/uY8yvfYooVhBxa9Mn66WcCy6L44HMfP4cHix0GXl+6K5gOno90sJjo/BA=="/>
+        </item>
+        <item>
             <title>1.0.20</title>
             <pubDate>Thu, 22 Oct 2026 08:18:00 -0600</pubDate>
             <sparkle:version>28</sparkle:version>
