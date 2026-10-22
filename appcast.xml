@@ -2,6 +2,26 @@
     <channel>
         <title>Weft</title>
         <item>
+            <title>1.0.20</title>
+            <pubDate>Thu, 22 Oct 2026 08:18:00 -0600</pubDate>
+            <sparkle:version>28</sparkle:version>
+            <sparkle:shortVersionString>1.0.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.20
+
+- Open worktrees through optional project-configured hostname routing, with readable agent names, consistent Open links and CLI status, streaming and WebSocket support, and direct-port fallback.
+- Connect approved agents from a shared Grok Bot roster to standing worktrees. Keep existing folders and ports when linking or renaming an agent.
+- Avoid unnecessary dev-server restarts during commits. Configure restart triggers, pause automatic restarts, restart manually, and see the reason in service logs.
+- Assign service ports consistently, including commands launched through package scripts. Explain occupied ports and keep optional service failures from stopping healthy required services.
+- Report crashed services accurately, retry preparation with a fresh operation, expose setup errors and logs in the CLI, and track existing remote branches automatically.
+- Improve checkout status, navigation spacing, active tabs and running-worktree indicators while keeping service ports visible.
+
+Requires macOS 26 or later on Apple silicon. Hostname routing and agent connections are opt-in. Existing projects keep their current behavior until configured.
+]]></description>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.20/Weft-1.0.20-arm64.dmg" length="10056605" type="application/octet-stream" sparkle:edSignature="xgMkPfjTK+AZF/cChQJGi9uxyTTmlJrByErBE+VakFERGLQeloNCqSwVHfsN5v6/0ERdeyZ6CK/8tMPpi5C6Dw=="/>
+        </item>
+        <item>
             <title>1.0.19</title>
             <pubDate>Mon, 19 Oct 2026 11:37:54 -0600</pubDate>
             <sparkle:version>27</sparkle:version>
