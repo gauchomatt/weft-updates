@@ -3,6 +3,24 @@
         <title>Weft</title>
         
         <item>
+            <title>1.0.32</title>
+            <pubDate>Fri, 23 Oct 2026 16:58:53 -0600</pubDate>
+            <sparkle:version>41</sparkle:version>
+            <sparkle:shortVersionString>1.0.32</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.32
+
+- Keep the project sidebar visible and remove its collapse button to avoid broken column dividers.
+- Rename a project from its sidebar menu. Names persist in Weft without changing repository folders, setup commands, or worktrees.
+- Replace tiny lock and warning markers with readable worktree status text, keeping checkout badges aligned.
+- Clearly label development previews as sample data.
+
+Protected workspaces remain opt-in. Grok connections to protected workspaces and default activation remain blocked until verification passes.
+]]></description>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.32/Weft-1.0.32-arm64.dmg" length="10894828" type="application/octet-stream" sparkle:edSignature="lDK6ILEqrxTkQ1NhjimE6W3envYF9qPHPBE4wD1CeNDoMLpmFF5ZJ42vLhzmaRd6HpP6vdhrjoDuY+5Jr0rfBA=="/>
+        </item>
+        <item>
             <title>1.0.31</title>
             <pubDate>Fri, 23 Oct 2026 16:42:41 -0600</pubDate>
             <sparkle:version>40</sparkle:version>
