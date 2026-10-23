@@ -2,6 +2,25 @@
     <channel>
         <title>Weft</title>
         <item>
+            <title>1.0.23</title>
+            <pubDate>Fri, 23 Oct 2026 11:46:35 -0600</pubDate>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>1.0.23</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.23
+
+- Add Operator Inbox: one consolidated view of worktree reports, recommended next steps, replies, approval-waiting items, and lifecycle notices. This first version collects evidence and communicates status; it does not execute repairs.
+- Enable scoped operator credentials for registered agents linked to worktrees. Rotate or revoke access from the inbox. Reports and notices remain restricted to the linked agent and worktree.
+- Add operator report, status, wait, and acknowledge commands to the CLI and MCP bridge, with durable issues, deduplication, redacted log excerpts, bounded notice pages, and resumable waits.
+- Deliver restart/relaunch reasons, memory warnings, failure, recovery, and stop notices to enabled worktree inboxes. Keep existing service policies unchanged.
+- Recognize already-running servers earlier after launch. Show detected services in the sidebar, service list, detail pane, and CLI without claiming ownership or reporting unchecked health checks as passing.
+
+Requires macOS 26 or later on Apple silicon. Enable CLI and agent access in Settings, then open Operator Inbox → Agent access to connect a linked agent.
+]]></description>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.23/Weft-1.0.23-arm64.dmg" length="10361345" type="application/octet-stream" sparkle:edSignature="FRzOlKygdxibgHqvp1SvJKFhd4X1fN8ZY/kN9hVxGDJ8pQtQ0vdHs7To95oIPOWGelF6peHJRT+YHtixE5PwAw=="/>
+        </item>
+        <item>
             <title>1.0.22</title>
             <pubDate>Fri, 23 Oct 2026 10:57:58 -0600</pubDate>
             <sparkle:version>30</sparkle:version>
