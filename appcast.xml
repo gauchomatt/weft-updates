@@ -2,6 +2,24 @@
     <channel>
         <title>Weft</title>
         <item>
+            <title>1.0.27</title>
+            <pubDate>Fri, 23 Oct 2026 14:34:14 -0600</pubDate>
+            <sparkle:version>36</sparkle:version>
+            <sparkle:shortVersionString>1.0.27</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.27
+
+- Verify Grok Bot’s Apple Developer ID publisher and running process before automatic setup. Send must belong to the exact focused composer’s own container.
+- Bound local connections, incoming traffic, per-credential concurrency, long waits and per-agent report storage. Slow clients no longer occupy Swift’s cooperative executor.
+- Add operator credential expiration and app-owned renewal, with a persisted deadline for existing credentials. Rotate the broader CLI token on API startup and during daily maintenance.
+- Preserve the live socket when another Weft instance fails to start, and reject oversized final request frames.
+
+These changes harden local access. External bots with unrestricted access to the same macOS account still share filesystem permissions; this update does not create OS-level isolation between those bots.
+]]></description>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.27/Weft-1.0.27-arm64.dmg" length="10680048" type="application/octet-stream" sparkle:edSignature="DXvPI7j6Mvy5C8w9Ek5P83Jx3DjTtzmzfK4RR1G2tD+WX9y3Hv+/0crQE5KUIGnzJMh9RBM7eN3/t7mS5AtpBg=="/>
+        </item>
+        <item>
             <title>1.0.26</title>
             <pubDate>Fri, 23 Oct 2026 14:12:32 -0600</pubDate>
             <sparkle:version>35</sparkle:version>
