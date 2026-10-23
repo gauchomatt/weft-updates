@@ -2,6 +2,23 @@
     <channel>
         <title>Weft</title>
         <item>
+            <title>1.0.24</title>
+            <pubDate>Fri, 23 Oct 2026 12:21:54 -0600</pubDate>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>1.0.24</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.24
+
+- A simple, resizable Operator window using native grouped settings: agent switches, reports, and recent activity on one page.
+- Every registered agent is visible, with its linked worktree and operator access status. Enable all linked agents in one action without resetting existing connections.
+- Agents can use operator commands directly from their own worktree; private scoped credentials are discovered automatically.
+- Open reports to review evidence and reply. Earlier notices and technical details stay tucked away until needed.
+- Reduce background CPU use by pruning unrelated service directories during restart checks, reusing log timestamp formatting, and refreshing operator lifecycle data only when events change.
+]]></description>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.24/Weft-1.0.24-arm64.dmg" length="10402395" type="application/octet-stream" sparkle:edSignature="sJAy6Ppb/CXkE7JnBtK5FGBEb/inIQjxs96/fX6N8DIzUN60ih91B662n84JRaCxYXUp4BQE9s8FcWCH7eDYBA=="/>
+        </item>
+        <item>
             <title>1.0.23</title>
             <pubDate>Fri, 23 Oct 2026 11:46:35 -0600</pubDate>
             <sparkle:version>31</sparkle:version>
