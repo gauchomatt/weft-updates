@@ -2,6 +2,23 @@
     <channel>
         <title>Weft</title>
         <item>
+            <title>1.0.25</title>
+            <pubDate>Fri, 23 Oct 2026 12:37:32 -0600</pubDate>
+            <sparkle:version>34</sparkle:version>
+            <sparkle:shortVersionString>1.0.25</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.25
+
+- Connect an agent before it has a worktree. Choose its project and let Weft create and prepare a dedicated worktree, assign ports, and enable local tool and operator access.
+- Reuse an existing agent assignment or explicitly link an existing checkout. Keep its branch, files, and valid operator credential.
+- Resume connection after project configuration or changed-recipe review. Failed setup stays visible and does not claim a completed connection.
+- Show the workspace path, branch, and preview after connection, with instructions to hand off to the agent app. CLI operator credentials are discovered automatically from its assigned worktree.
+- Grok Bot setup and existing worktree links now include operator access. Grok Bot’s roster integration remains read-only; paste its handoff once into the bot conversation.
+]]></description>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.25/Weft-1.0.25-arm64.dmg" length="10573278" type="application/octet-stream" sparkle:edSignature="DkEvp/O8xTH1pQjeJ76MfN2MnaOPJu7kEOxQWmTB+oAFMJyYhFDZN6vbibC2JO1/eSiPmksOx60iwOhUwu7aAw=="/>
+        </item>
+        <item>
             <title>1.0.24</title>
             <pubDate>Fri, 23 Oct 2026 12:21:54 -0600</pubDate>
             <sparkle:version>33</sparkle:version>
