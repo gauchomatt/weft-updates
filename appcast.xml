@@ -3,6 +3,23 @@
         <title>Weft</title>
         
         <item>
+            <title>1.0.31</title>
+            <pubDate>Fri, 23 Oct 2026 16:42:41 -0600</pubDate>
+            <sparkle:version>40</sparkle:version>
+            <sparkle:shortVersionString>1.0.31</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.31
+
+- Polish the project sidebar with consistent typography, aligned project artwork and numbered checkout badges that retain their green running state.
+- Bring the service column into the same visual style as the overview: compact rounded icon tiles, readable status subtitles, a running-service count and clearer Start/Stop controls.
+- Improve selected-row contrast while preserving native selection, arrow-key navigation, worktree actions and service context menus.
+
+Protected workspaces remain an opt-in demo. Grok connections to protected workspaces and default activation remain blocked in code until independent verification passes.
+]]></description>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.31/Weft-1.0.31-arm64.dmg" length="10919223" type="application/octet-stream" sparkle:edSignature="WUMvrnk0wWdiHQDmsIIPNaanpnZSKFcTLaZPQrCNWaLLKhc6OIYwCcIY6fSioOxvEsa8GS/jlKgMIxLCz/qTDg=="/>
+        </item>
+        <item>
             <title>1.0.30</title>
             <pubDate>Fri, 23 Oct 2026 16:24:12 -0600</pubDate>
             <sparkle:version>39</sparkle:version>
