@@ -3,6 +3,22 @@
         <title>Weft</title>
         
         <item>
+            <title>1.0.33</title>
+            <pubDate>Fri, 23 Oct 2026 17:10:22 -0600</pubDate>
+            <sparkle:version>42</sparkle:version>
+            <sparkle:shortVersionString>1.0.33</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.33
+
+- Center worktree names and numbered badges inside sidebar selection highlights, in both active and inactive states.
+- Keep sample-preview labeling from changing the layout being checked.
+
+Protected workspaces remain opt-in. Grok connections to protected workspaces remain blocked pending verification.
+]]></description>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.33/Weft-1.0.33-arm64.dmg" length="10894843" type="application/octet-stream" sparkle:edSignature="aJ0vde5Bk7xyBBESx1WRrMVk6dYMp2tajPG8qIu1y3PE5Jo8MG0KmpH78xhQ0PU5r8h6voOXorhjh/ScMKdqCA=="/>
+        </item>
+        <item>
             <title>1.0.32</title>
             <pubDate>Fri, 23 Oct 2026 16:58:53 -0600</pubDate>
             <sparkle:version>41</sparkle:version>
