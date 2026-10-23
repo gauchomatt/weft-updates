@@ -3,6 +3,25 @@
         <title>Weft</title>
         
         <item>
+            <title>1.0.28</title>
+            <pubDate>Fri, 23 Oct 2026 14:42:12 -0600</pubDate>
+            <sparkle:version>37</sparkle:version>
+            <sparkle:shortVersionString>1.0.28</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Weft 1.0.28
+
+- Verify Grok Bot’s Apple Developer ID publisher and running process before automatic setup. Send must belong to the exact focused composer’s own container.
+- Bound local connections, incoming traffic, per-credential concurrency, long waits and per-agent report storage. Slow clients run outside Swift’s cooperative executor.
+- Add operator credential expiration and app-owned renewal, with a persisted migration deadline. Rotate the broader CLI token on API startup and during daily maintenance.
+- Enforce socket read deadlines using polling. Fix the macOS CLI response-read regression in withdrawn build 36, including delayed responses arriving in multiple chunks.
+- Preserve the live socket when another Weft instance fails to start, and reject oversized final request frames.
+
+External bots with unrestricted access to the same macOS account still share filesystem permissions. These changes do not provide OS-level isolation between those bots.
+]]></description>
+            <enclosure url="https://github.com/gauchomatt/weft-updates/releases/download/v1.0.28/Weft-1.0.28-arm64.dmg" length="10679975" type="application/octet-stream" sparkle:edSignature="8fTTk0M2BnwJ0pOMK8UWeNFSt7D2+XNIiv5ykZBbaOCF0a9CQgVf5n/NB7J5iz9qnkMedwl9jwhFDqRRR8N/Bg=="/>
+        </item>
+        <item>
             <title>1.0.26</title>
             <pubDate>Fri, 23 Oct 2026 14:12:32 -0600</pubDate>
             <sparkle:version>35</sparkle:version>
